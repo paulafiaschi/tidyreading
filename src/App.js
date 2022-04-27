@@ -1,6 +1,7 @@
 import "./App.scss";
 
 import Nav from "./components/Nav";
+import Cards from "./components/Cards";
 import Summary from "./components/Summary";
 
 function App() {
@@ -8,8 +9,10 @@ function App() {
     <div className="App">
       <Nav />
       <Summary />
-      {/* <Button /
-      <Cards /> */}
+      {/* <Button />*/}
+      <section className="cards">
+        <Cards />
+      </section>
     </div>
   );
 }
